@@ -500,7 +500,7 @@
                 ]
             }
         },
-        "/order/add": {
+        "/order/addItem": {
             "post": {
                 "tags": [
                     "Orders"
