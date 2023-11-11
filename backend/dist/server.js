@@ -9,7 +9,7 @@ const routes_1 = require("./routes/routes");
 const cors_1 = __importDefault(require("cors"));
 const path_1 = __importDefault(require("path"));
 const swagger_ui_express_1 = __importDefault(require("swagger-ui-express"));
-const swagger_json_1 = __importDefault(require("../swagger.json"));
+const swagger_json_1 = __importDefault(require("./swagger.json"));
 const app = (0, express_1.default)();
 app.use(express_1.default.json());
 app.use((0, cors_1.default)());
