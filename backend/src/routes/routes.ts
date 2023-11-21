@@ -42,7 +42,7 @@ router.get('/category/product', isAuthenticated, new ListByCategoryController().
 
 //Rotas order
 router.post('/order', isAuthenticated, new CreateOrderController().handle);
-router.delete('/order/remove', isAuthenticated, new RemoveOrderController().handle);
+router.delete('/order', isAuthenticated, new RemoveOrderController().handle);
 router.post('/order/addItem', isAuthenticated, new AddItemController().handle);
 router.delete('/order/removeItem', isAuthenticated, new RemoveItemController().handle)
 router.put('/order/send', isAuthenticated, new SendOrderController().handle)

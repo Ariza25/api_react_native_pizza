@@ -7,7 +7,12 @@
 
     h1{
         color: var(--white);
+        margin-bottom: 1rem;
     }
+}
+
+.icon{
+    margin-bottom: .6rem; 
 }
 
 .containerHeader{
@@ -53,4 +58,8 @@
     width: 9px;
     border-radius: .3rem 0 0 .3rem;
     margin-right: 1rem;
+}
+
+.emptyList{
+    color: aliceblue;
 }
